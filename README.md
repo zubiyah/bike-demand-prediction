@@ -97,8 +97,8 @@ Results:
 | Metric |  Score |
 | ------ | -----: |
 | MAE    | 222.20 |
-| RMSE   | 319.43 |
-| R²     | 0.7288 |
+| RMSE   | 315.22 |
+| R²     | 0.7359 |
 
 The Random Forest model produced lower prediction errors and explained more of the variation in bike demand than the Linear Regression model on the test period.
 
@@ -178,6 +178,8 @@ Possible next steps include:
 
 This project demonstrates an end-to-end approach to a real-world regression problem.
 
-Instead of stopping at model training, the project also investigates **why the model performs the way it does**, which features influence predictions, and where prediction errors are concentrated.
+Rather than stopping at model training, the project also investigates why the model performs the way it does, which features influence predictions, and where prediction errors are concentrated.
 
-The final goal is not just to predict bike demand, but to understand the data and the model behind those predictions.
+The results show that time and weather provide meaningful signals for predicting bike rental demand, while unusually high-demand periods remain more challenging for the model.
+
+The project therefore goes beyond simply building a prediction model — it focuses on understanding the data, evaluating the model, and investigating where and why it makes mistakes.
